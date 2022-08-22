@@ -9,8 +9,8 @@ public class fibonacci {
 		int b=0;
 		int c=1;
 		System.out.println("enter number");
-		Scanner shreyas=new Scanner(System.in);
-		a=shreyas.nextInt();
+		Scanner sc=new Scanner(System.in);
+		a=sc.nextInt();
 		 System.out.print("The first " + a + " Fibonacci numbers are: ");
          System.out.print(b + " " + c);
          for(int i=1;i<=a-2;++i)
